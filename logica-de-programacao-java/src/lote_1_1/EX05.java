@@ -1,3 +1,5 @@
+package lote_1_1;
+
 /* Luan Cardoso
  * Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0).
  * Calcule e mostre as raízes reais (considerar que a equação possue 2 raízes).

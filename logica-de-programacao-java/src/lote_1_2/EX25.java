@@ -1,7 +1,8 @@
+package lote_1_2;
+
 /* Luan Cardoso
  * Receba a hora de início e de final de um jogo (HH,MM) sabendo que o tempo máximo é de 24 horas e pode começar num dia e terminar noutro.
  */
-
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
@@ -18,7 +19,6 @@ public class EX25 {
          * total hora = th
          * total minuto = tm
          */
-        
         //Painel para coletar a hora
         JPanel painel = new JPanel();
         painel.setLayout(null);
@@ -42,7 +42,7 @@ public class EX25 {
 
         //Coletando o horário final
         JOptionPane.showMessageDialog(null, painel, "Digite a hora final do jogo:", JOptionPane.QUESTION_MESSAGE);
-        
+
         //Tranferindo de TextField para as variáveis
         hf = Double.parseDouble(tx1.getText());
         mf = Double.parseDouble(tx2.getText());

@@ -1,7 +1,8 @@
+package lote_1_3;
+
 /* Luan Cardoso
  * Receba um número inteiro. Calcule e mostre o seu fatorial.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX35 {

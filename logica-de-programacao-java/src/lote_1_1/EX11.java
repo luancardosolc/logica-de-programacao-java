@@ -1,7 +1,8 @@
+package lote_1_1;
+
 /* Luan Cardoso
  * Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX11 {

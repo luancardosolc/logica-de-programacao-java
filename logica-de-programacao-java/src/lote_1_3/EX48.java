@@ -1,3 +1,5 @@
+package lote_1_3;
+
 /* Luan Cardoso
  Calcule e mostre a série 1 – 2/4 + 3/9 – 4/16 + 5/25 + ... + 15/225
  */

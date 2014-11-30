@@ -1,7 +1,8 @@
+package lote_1_1;
+
 /* Luan Cardoso
  * Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade e quantos anos terá daqui a 17 anos.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX12 {
@@ -18,8 +19,8 @@ public class EX12 {
         idade_final = idade + 17;
 
         //Saída de dados
-        System.out.println("A idade atual é : " + idade+" anos");
-        System.out.println("A idade daqui a 17 anos será: " + idade_final+" anos");
+        System.out.println("A idade atual é : " + idade + " anos");
+        System.out.println("A idade daqui a 17 anos será: " + idade_final + " anos");
 
     }
 }

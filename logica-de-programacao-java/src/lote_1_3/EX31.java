@@ -1,3 +1,5 @@
+package lote_1_3;
+
 /* Luan Cardoso
  2.	Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço sabendo que:
  Venda Mensal	Preço Atual	Preço Novo
@@ -6,7 +8,6 @@
  >= 1000	>= 80	- 5%
  Obs.: para outras condições, preço novo será igual ao preço atual.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX31 {

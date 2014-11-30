@@ -1,9 +1,10 @@
+package lote_1_3;
+
 /* Luan Cardoso
  3.Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento.
  * Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%.
  * Demais tipos não serão considerados.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX32 {
@@ -15,13 +16,13 @@ public class EX32 {
         i = Integer.parseInt(JOptionPane.showInputDialog("Digite o tipo de investimento:"
                 + "\n1-Poupança;"
                 + "\n2-Renda Fixa."));
-        
-        while (i != 1 && i !=2) {
+
+        while (i != 1 && i != 2) {
             i = Integer.parseInt(JOptionPane.showInputDialog("Opção inválida! Digite o tipo de investimento"
-            + "\n1-Poupança;"
-            + "\n2-Renda Fixa."));
+                    + "\n1-Poupança;"
+                    + "\n2-Renda Fixa."));
         }
-        
+
         v = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor a ser investido:"));
 
         if (i == 1) {

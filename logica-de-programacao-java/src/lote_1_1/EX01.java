@@ -1,3 +1,5 @@
+package lote_1_1;
+
 /* LUAN CARDOSO
  *1.	Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
  */

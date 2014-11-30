@@ -1,3 +1,5 @@
+package lote_1_1;
+
 /* Luan Cardoso
  * Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
  */

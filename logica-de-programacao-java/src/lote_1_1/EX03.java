@@ -1,3 +1,5 @@
+package lote_1_1;
+
 /* Luan Cardoso
  * Receba a base e a altura de um triângulo. Calcule e mostre a sua área.
  */

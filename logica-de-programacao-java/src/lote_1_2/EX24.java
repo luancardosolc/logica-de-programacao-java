@@ -1,14 +1,15 @@
+package lote_1_2;
+
 /* Luan Cardoso
  * Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3.
  */
-
 import javax.swing.JOptionPane;
 
 public class EX24 {
 
     public static void main(String args[]) {
         double x, resto3, resto2;
-       
+
         x = Double.parseDouble(JOptionPane.showInputDialog("Digite um número para verificar se o mesmo é divisível por 2 e/ou 3:"));
 
         resto2 = x % 2;
